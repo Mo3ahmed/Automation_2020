@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Firefox Automation Suite" preserve-order="true">
+        <parameter name="Browser" value="Firefox"></parameter>
+        <classes>
+            <class name="Day_13_05302020.Kayak_Action_Item_Abstract"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Chrome Automation Suite" preserve-order="true">
+        <parameter name="Browser" value="Chrome"></parameter>
+        <classes>
+            <class name="Day_13_05302020.Kayak_Action_Item_Abstract"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8966f01-7ce1-4605-bc2c-0037dd1fd439" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1byXAfnh52wBfzsTI1AgSen6R27" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Day_16_06072020" />
+      <recent name="Reusable_Methods" />
+      <recent name="Day_13_05302020" />
+      <recent name="Day11_05172020" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moeah\Desktop\Maven_Automation\src\main\java" />
+      <recent name="C:\Users\moeah\Desktop\Maven_Automation\src\test\java" />
+      <recent name="C:\Users\moeah\Desktop\Maven_Automation\src\main\resources" />
+      <recent name="C:\Users\moeah\Desktop\Maven_Automation\src\main\java\Excel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.MetLife_AI_PageObject.MetLife_Page_Object">
+    <configuration name="Action_Item_MetLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day08_05032020.Action_Item_MetLife" />
+      <module name="Maven_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day08_05032020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aetna_slidebar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day08_05032020.Aetna_slidebar" />
+      <module name="Maven_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day08_05032020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="action_item_bing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day04_04192020.action_item_bing" />
+      <module name="Maven_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day04_04192020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Google_Search_TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Automation" />
+      <useClassPathOnly />
+      <extension name="coverage" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="Day11_05172020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Day11_05172020" />
+      <option name="MAIN_CLASS_NAME" value="Day11_05172020.Google_Search_TestNG" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MetLife_AI_PageObject.MetLife_Page_Object" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Automation" />
+      <useClassPathOnly />
+      <extension name="coverage" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="Metlife_Page_Object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Metlife_Page_Object" />
+      <option name="MAIN_CLASS_NAME" value="Metlife_Page_Object.MetLife_AI_PageObject" />
+      <option name="METHOD_NAME" value="MetLife_Page_Object" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <useClassPathOnly />
+      <extension name="coverage" track_test_folders="true" />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Action_Item_MetLife" />
+      <item itemvalue="Application.action_item_bing" />
+      <item itemvalue="Application.Aetna_slidebar" />
+      <item itemvalue="TestNG.Google_Search_TestNG" />
+      <item itemvalue="TestNG.MetLife_AI_PageObject.MetLife_Page_Object" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.MetLife_AI_PageObject.MetLife_Page_Object" />
+        <item itemvalue="Application.Aetna_slidebar" />
+        <item itemvalue="Application.action_item_bing" />
+        <item itemvalue="TestNG.Google_Search_TestNG" />
+        <item itemvalue="Application.Action_Item_MetLife" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8966f01-7ce1-4605-bc2c-0037dd1fd439" name="Default Changelist" comment="" />
+      <created>1589605164126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589605164126</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="0" width="596" height="728" key="#Google_Search_TestNG.googleSearch" timestamp="1589734144872">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="734" y="0" width="596" height="728" key="#Google_Search_TestNG.googleSearch/0.0.1366.728@0.0.1366.728" timestamp="1589734144872" />
+    <state x="547" y="33" key="#Project_Structure" timestamp="1589646136284">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="547" y="33" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1589646136283" />
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589840238577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589840238577" />
+    <state x="394" y="20" width="972" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589733620116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="394" y="20" width="972" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589733620116" />
+    <state x="776" y="100" width="549" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589738362004">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="776" y="100" width="549" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1589738362004" />
+    <state x="719" y="178" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591073724999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="719" y="178" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1591073724999" />
+    <state x="734" y="231" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591418978364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="734" y="231" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1591418978364" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591295328755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591295328755" />
+    <state width="1323" height="301" key="GridCell.Tab.0.bottom" timestamp="1592015520244">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592015520244" />
+    <state width="1323" height="301" key="GridCell.Tab.0.center" timestamp="1592015520244">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592015520244" />
+    <state width="1323" height="301" key="GridCell.Tab.0.left" timestamp="1592015520244">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592015520244" />
+    <state width="1323" height="301" key="GridCell.Tab.0.right" timestamp="1592015520244">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592015520244" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1591546885200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591546885200" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1591546885198">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591546885198" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1591546885198">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591546885198" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1591546885199">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591546885199" />
+    <state x="326" y="0" key="SettingsEditor" timestamp="1590524150615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590524150615" />
+    <state x="0" y="94" width="721" height="707" key="dock-window-1" timestamp="1591947011492">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="94" width="721" height="707" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1591947011492" />
+    <state x="622" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592023192867">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="622" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1592023192867" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Metlife_Page_Object/MetLife_HomePage.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
