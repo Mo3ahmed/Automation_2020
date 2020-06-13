@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8966f01-7ce1-4605-bc2c-0037dd1fd439" name="Default Changelist" comment="">
+    <list default="true" id="c8966f01-7ce1-4605-bc2c-0037dd1fd439" name="Default Changelist" comment="Additional change">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day_17_06132020/Cucumber/Google.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +29,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1byXAfnh52wBfzsTI1AgSen6R27" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -40,6 +43,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -212,12 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1592066472361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Additional change">
+      <created>1592066873363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592066873363</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.feature" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My new changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="My new changes" />
+    <MESSAGE value="Additional change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="0" width="596" height="728" key="#Google_Search_TestNG.googleSearch" timestamp="1589734144872">
@@ -240,10 +255,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="776" y="100" width="549" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1589738362004" />
-    <state x="719" y="178" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591073724999">
+    <state x="719" y="178" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592070930472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="719" y="178" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1591073724999" />
+    <state x="719" y="178" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1592070930472" />
     <state x="734" y="231" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591418978364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -252,10 +267,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591295328755" />
-    <state x="275" y="0" width="1091" height="728" key="CommitChangelistDialog2" timestamp="1592066740026">
+    <state x="275" y="0" width="1091" height="728" key="CommitChangelistDialog2" timestamp="1592067226218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="0" width="1091" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592066740026" />
+    <state x="275" y="0" width="1091" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592067226218" />
     <state width="1323" height="301" key="GridCell.Tab.0.bottom" timestamp="1592015520244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -288,18 +303,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591546885199" />
-    <state x="326" y="0" key="SettingsEditor" timestamp="1590524150615">
+    <state x="326" y="0" key="SettingsEditor" timestamp="1592071343046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590524150615" />
-    <state x="550" y="105" key="Vcs.Push.Dialog.v2" timestamp="1592066479472">
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592071343046" />
+    <state x="550" y="105" key="Vcs.Push.Dialog.v2" timestamp="1592066875033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592066479472" />
+    <state x="550" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592066875033" />
     <state x="0" y="94" width="721" height="707" key="dock-window-1" timestamp="1591947011492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="94" width="721" height="707" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1591947011492" />
+    <state x="681" y="163" key="git4idea.merge.GitPullDialog" timestamp="1592067033125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="681" y="163" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1592067033125" />
+    <state x="751" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1592072513169">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="751" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1592072513169" />
     <state x="622" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592023192867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
