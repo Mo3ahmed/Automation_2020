@@ -1,0 +1,165 @@
+package Reusable_Methods;
+
+import com.cucumber.listener.Reporter;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.IOException;
+
+public class Reusable_Library_Cucumber {
+  static WebDriver driver;
+
+    static int timeout = 15;
+    //method to re use chrome driver and chrome options
+    public static WebDriver setDriver() throws InterruptedException, IOException {
+        //kill all chrome driver instance
+        Thread.sleep(2000);
+        Runtime.getRuntime().exec("taskkill /F /IM chromedriver83.exe /T");
+        Thread.sleep(2000);
+        //set the chrome path
+        System.setProperty("webdriver.chrome.driver","src//main//resources//chromedriver83.exe");
+        //set some pre conditions using ChromeOptions
+        ChromeOptions options = new ChromeOptions();
+        //set the arguments you want for the driver
+        options.addArguments("start-maximized","incognito");
+        //now simply define your chrome driver
+        WebDriver driver = new ChromeDriver(options);
+        return driver;
+    }//end of
+
+    //method to compare expected with actual title
+    public static void verifyTitle(WebDriver driver,String expectedTitle){
+        String actualTitle = driver.getTitle();
+        if (actualTitle.equals(expectedTitle)){
+            System.out.println("Expected title matches with actual " + actualTitle);
+        }else{
+            System.out.println("Expected title does not match. actual title is " +actualTitle);
+        }//end if else
+    }//end of verify title
+
+    //method to select a drop down value by visible text
+    public static void dropdownByText(WebDriver driver, String locator, String userInput,String elementName){
+        WebDriverWait wait = new WebDriverWait(driver,timeout);
+            Reporter.addStepLog("Selecting a value on element " + elementName);
+            WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+            Select dropDown = new Select(element);
+            dropDown.selectByVisibleText(userInput);
+            Reporter.addStepLog("Unable to select element " + elementName );
+    }//end of drop down by text method
+
+    //Method to enter user input on send Keys
+    public static void enterKeys(WebDriver driver, String locator, String userInput,String elementName){
+        WebDriverWait wait = new WebDriverWait(driver,timeout);
+
+        Reporter.addStepLog("Entering a value on element " + elementName);
+            WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+            element.click();
+            element.clear();
+            element.sendKeys(userInput);
+        Reporter.addStepLog("unable to enter element " + elementName);
+
+    }//end of send keys method
+
+    //method to click on an element
+    public static void clickElement(WebDriver driver, String locator, String elementName){
+        WebDriverWait wait = new WebDriverWait(driver,timeout);
+
+        Reporter.addStepLog("Clicking a value on element " + elementName);
+            WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+            element.click();
+
+        Reporter.addStepLog("unable to click on element" + elementName);
+
+    }//end of click method
+
+    //method to submit on an element
+    public static void submit(WebDriver driver, String locator, String elementName) {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+
+        Reporter.addStepLog("Submitting a value on element " + elementName);
+            WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+            element.submit();
+            Reporter.addStepLog("unable to submit element " + elementName);
+
+    }//end of submit method
+
+    //method to return text from an element
+    //method to return text from an element
+    public static String captureText(WebDriver driver,String locator,String elementName){
+        WebDriverWait wait = new WebDriverWait(driver,timeout);
+        String result = null;
+
+        Reporter.addStepLog("Capturing a text from element " + elementName);
+
+            WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+            result = element.getText();
+        Reporter.addStepLog("My Text result is " + result);
+        Reporter.addStepLog("Unable to capture text on element " + elementName);
+        return result;
+    }//end of captureText method
+
+    //method to Mouse Hover on a element
+    public static void Hover(WebDriver driver,String locator,String elementName) {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+
+        Reporter.addStepLog("Hovering over an element" + elementName);
+            WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).perform();
+        Reporter.addStepLog("unable to Hover the mouse" + elementName);
+
+    }//end of Mouse Hover on element
+
+        //method to perform MouseClick
+    public static void MouseClick(WebDriver driver,String locator, String elementName) {
+        WebDriverWait wait = new WebDriverWait(driver, timeout);
+
+        Reporter.addStepLog("hover and click " +elementName);
+           // WebElement element = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(locator))).get(index);
+           WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).click().perform();
+           // action.click(element).perform();
+        Reporter.addStepLog("unable to hover and click " + elementName);
+
+    }//end of MouseClick
+
+    //method to click by index on an element
+    public static void clickByIndex(WebDriver driver,String locator,int index, String elementName){
+        WebDriverWait wait = new WebDriverWait(driver,timeout);
+
+            Reporter.addStepLog("Clicking a value by index " + index + " on element " + elementName);
+            WebElement element = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(locator))).get(index);
+            element.click();
+        Reporter.addStepLog("Unable to click by index " + index +  " on element " + elementName);
+
+    }//end of click method
+
+    //method to enter user input on send keys
+    public static void userTypeAndHitEnter(WebDriver driver,String locator, String userInput, String elementName){
+        WebDriverWait wait = new WebDriverWait(driver,timeout);
+
+        Reporter.addStepLog("Entering a value on element " + elementName);
+            WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
+            element.clear();
+            element.sendKeys(userInput);
+            element.sendKeys(Keys.ENTER);
+        Reporter.addStepLog("Unable to enter element " + elementName);
+
+    }//end of userTypeAndHitEnter method
+
+
+    }//end of Reusable class
+
+
+
+
+
