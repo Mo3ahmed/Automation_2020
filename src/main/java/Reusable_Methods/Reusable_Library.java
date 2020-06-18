@@ -172,9 +172,13 @@ public class Reusable_Library {
             Reporter.log("Unable to enter element " + elementName + " " + e);
         }
     }//end of userTypeAndHitEnter method
+    public static void ScrollToBottom(WebDriver driver){
+        ((JavascriptExecutor) driver)
+                .executeScript("scroll(0,5000");
+    }//end of scroll
 
 
-    }//end of Reusable class
+}//end of Reusable class
 
 
 

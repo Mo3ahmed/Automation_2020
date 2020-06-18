@@ -1,5 +1,6 @@
 package Day08_05032020;
 
+import gherkin.lexer.Th;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -35,7 +36,7 @@ public class Aetna_slidebar {
         Miles.add(30);
 
         //for loop will start here
-        for (int i = 0; i <3; i++){
+        for (int i = 0; i <1; i++){
         driver.navigate().to("https://www.aetna.com");
         Thread.sleep(3000);
         //verify title of the page and get title
@@ -45,7 +46,7 @@ public class Aetna_slidebar {
             } else {
                 System.out.println("The title of the page does not match with the actual title: " + pageTittle);
             }//end of if else statement
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         //try and catch for shop for a plan
             try {
                 //find the element for shop for a plan and click
@@ -73,9 +74,9 @@ public class Aetna_slidebar {
 
             //click on 2020 for yourself on yourself
             try {
-                driver.findElement(By.xpath("//*[@class='primaryPurple BtnWidth mgbutton w400']")).click();
+                driver.findElement(By.xpath("//*[contains(text(),'you purchase yourself')]")).click();
             } catch (Exception e) {
-                System.out.println("unable to click on 2020 medicare for yourslef  " + e);
+                System.out.println("unable to click on 2020 medicare for yourself  " + e);
             }//end of try & catch
             Thread.sleep(2000);
             //slide bar range moving
@@ -133,7 +134,7 @@ public class Aetna_slidebar {
             try {
                 driver.findElement(By.xpath("//*[contains(text(),'Doctors (Primary')]")).click();
             } catch (Exception e) {
-                System.out.println("unable to click on doctos primary  " + e);
+                System.out.println("unable to click on doctors primary  " + e);
             }//end of try & catch
             Thread.sleep(3000);
 
@@ -143,20 +144,20 @@ public class Aetna_slidebar {
             } catch (Exception e) {
                 System.out.println("unable to click primary care physicians  " + e);
             }//end of try & catch
-            Thread.sleep(5000);
+            Thread.sleep(4000);
 
             //get the name and address of the doctor
             try {
-                WebElement address = driver.findElement(By.xpath("//*[@header='grid-hdr-name']"));
+                WebElement address = driver.findElements(By.xpath("//div[@class='col-xs-12 col-md-4 dataGridContentCol']")).get(1);
+                Thread.sleep(1000);
                 address.getText();
                 System.out.println("My ZipCode is " + zipCode.get(i)+" & The Care Physicians contact information is: " + " \n " + address.getText());
             }catch (Exception e){
                 System.out.println("unable to get the doctors address " + e);
-            }// en dof try and catch
-            Thread.sleep(3000);
+            }// end of try and catch
+            Thread.sleep(1000);
 
         }//end of for loop
-        Thread.sleep(3000);
         driver.quit();
 
     }//end of main method

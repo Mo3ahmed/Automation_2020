@@ -222,10 +222,12 @@ public class Reusable_Library_Loggers {
             String image = logger.addScreenCapture("Screenshots//" + fileName);
             logger.log(LogStatus.FAIL, "", image);
         } catch (Exception e) {
-            logger.log(LogStatus.FAIL, "Error Occured while taking SCREENSHOT!!!");
+            logger.log(LogStatus.FAIL, "Error Occurred while taking SCREENSHOT!!!");
             e.printStackTrace();
         }//end of try catch
+
     }//end of screenshot method
+
 
     }//end of Reusable class
 

@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-12T22:29:46 EDT" name="Default Suite" finished-at="2020-06-12T22:31:27 EDT" duration-ms="100394">
+  <suite started-at="2020-06-18T04:18:08 EDT" name="Default Suite" finished-at="2020-06-18T04:18:26 EDT" duration-ms="18765">
     <groups>
     </groups>
-    <test started-at="2020-06-12T22:29:46 EDT" name="Maven_Automation" finished-at="2020-06-12T22:31:27 EDT" duration-ms="100394">
-      <class name="Metlife_Page_Object.MetLife_AI_PageObject">
-        <test-method is-config="true" signature="defineDriver()[pri:0, instance:Metlife_Page_Object.MetLife_AI_PageObject@2bea5ab4]" started-at="2020-06-12T22:29:38 EDT" name="defineDriver" finished-at="2020-06-12T22:29:46 EDT" duration-ms="7732" status="PASS">
+    <test started-at="2020-06-18T04:18:08 EDT" name="Maven_Automation" finished-at="2020-06-18T04:18:26 EDT" duration-ms="18765">
+      <class name="LibertyMutal_Page_Object.LibertyMutual_PageObject">
+        <test-method is-config="true" signature="defineDriver()[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:17:59 EDT" name="defineDriver" finished-at="2020-06-18T04:18:08 EDT" duration-ms="8537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineDriver -->
-        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:Metlife_Page_Object.MetLife_AI_PageObject@2bea5ab4]" started-at="2020-06-12T22:29:46 EDT" name="getMethodName" finished-at="2020-06-12T22:29:46 EDT" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:18:08 EDT" name="getMethodName" finished-at="2020-06-18T04:18:08 EDT" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void Metlife_Page_Object.MetLife_AI_PageObject.MetLife_Page_Object() throws java.lang.InterruptedException]]>
+                <![CDATA[public void LibertyMutal_Page_Object.LibertyMutual_PageObject.LibertyMutual_PageObject() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method signature="MetLife_Page_Object()[pri:0, instance:Metlife_Page_Object.MetLife_AI_PageObject@2bea5ab4]" started-at="2020-06-12T22:29:46 EDT" name="MetLife_Page_Object" finished-at="2020-06-12T22:31:27 EDT" duration-ms="100318" status="PASS">
+        <test-method signature="LibertyMutual_PageObject()[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:18:08 EDT" name="LibertyMutual_PageObject" finished-at="2020-06-18T04:18:26 EDT" duration-ms="18717" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MetLife_Page_Object -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:Metlife_Page_Object.MetLife_AI_PageObject@2bea5ab4]" started-at="2020-06-12T22:31:27 EDT" name="endTest" finished-at="2020-06-12T22:31:27 EDT" duration-ms="8" status="PASS">
+        </test-method> <!-- LibertyMutual_PageObject -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:18:26 EDT" name="endTest" finished-at="2020-06-18T04:18:26 EDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="PostCondition()[pri:0, instance:Metlife_Page_Object.MetLife_AI_PageObject@2bea5ab4]" started-at="2020-06-12T22:31:27 EDT" name="PostCondition" finished-at="2020-06-12T22:31:27 EDT" duration-ms="552" status="PASS">
+        <test-method is-config="true" signature="PostCondition()[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:18:26 EDT" name="PostCondition" finished-at="2020-06-18T04:18:27 EDT" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostCondition -->
-      </class> <!-- Metlife_Page_Object.MetLife_AI_PageObject -->
+      </class> <!-- LibertyMutal_Page_Object.LibertyMutual_PageObject -->
     </test> <!-- Maven_Automation -->
   </suite> <!-- Default Suite -->
 </testng-results>

@@ -6,8 +6,6 @@ import com.relevantcodes.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.ArrayList;
-
 public class MetLife_ZipCode extends Abstract_Class {
     //define the logger so its local to the class
     ExtentTest logger;

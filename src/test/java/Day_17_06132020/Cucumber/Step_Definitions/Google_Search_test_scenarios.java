@@ -1,6 +1,7 @@
 package Day_17_06132020.Cucumber.Step_Definitions;
 
 import Reusable_Methods.Reusable_Library;
+import Reusable_Methods.Reusable_Library_Cucumber;
 import com.cucumber.listener.Reporter;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -40,13 +41,13 @@ public class Google_Search_test_scenarios {
 
     @And("^I click on More Icon$")
     public void MoreIcon(){
-        Reusable_Library.clickElement(driver,"//*[@class='more-vert z1asCe SaPW2b']","More Icon");
+        Reusable_Library_Cucumber.clickElement(driver,"//*[@class='more-vert z1asCe SaPW2b']","More Icon");
     }//end of And
 
     @Then("^I can select the value (.*)$")
     public void MoreValues(String more) throws InterruptedException {
         Thread.sleep(1500);
-        Reusable_Library.clickElement(driver,"//*[text()='"+more+"']","More value");
+        Reusable_Library_Cucumber.clickElement(driver,"//*[text()='"+more+"']","More value");
     }//end of more
 
 

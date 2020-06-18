@@ -17,7 +17,7 @@ import java.io.IOException;
 public class Reusable_Library_Cucumber {
   static WebDriver driver;
 
-    static int timeout = 15;
+    static int timeout = 5;
     //method to re use chrome driver and chrome options
     public static WebDriver setDriver() throws InterruptedException, IOException {
         //kill all chrome driver instance

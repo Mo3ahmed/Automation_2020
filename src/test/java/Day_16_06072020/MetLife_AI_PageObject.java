@@ -1,9 +1,8 @@
-package Metlife_Page_Object;
+package Day_16_06072020;
 
+import Metlife_Page_Object.MetLife_Base_Class;
 import Reusable_Methods.Abstract_Class;
 import com.relevantcodes.extentreports.LogStatus;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
