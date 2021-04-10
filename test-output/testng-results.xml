@@ -1,40 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2020-06-18T04:18:08 EDT" name="Default Suite" finished-at="2020-06-18T04:18:26 EDT" duration-ms="18765">
-    <groups>
-    </groups>
-    <test started-at="2020-06-18T04:18:08 EDT" name="Maven_Automation" finished-at="2020-06-18T04:18:26 EDT" duration-ms="18765">
-      <class name="LibertyMutal_Page_Object.LibertyMutual_PageObject">
-        <test-method is-config="true" signature="defineDriver()[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:17:59 EDT" name="defineDriver" finished-at="2020-06-18T04:18:08 EDT" duration-ms="8537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defineDriver -->
-        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:18:08 EDT" name="getMethodName" finished-at="2020-06-18T04:18:08 EDT" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void LibertyMutal_Page_Object.LibertyMutual_PageObject.LibertyMutual_PageObject() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getMethodName -->
-        <test-method signature="LibertyMutual_PageObject()[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:18:08 EDT" name="LibertyMutual_PageObject" finished-at="2020-06-18T04:18:26 EDT" duration-ms="18717" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LibertyMutual_PageObject -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:18:26 EDT" name="endTest" finished-at="2020-06-18T04:18:26 EDT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="PostCondition()[pri:0, instance:LibertyMutal_Page_Object.LibertyMutual_PageObject@33cb5951]" started-at="2020-06-18T04:18:26 EDT" name="PostCondition" finished-at="2020-06-18T04:18:27 EDT" duration-ms="661" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PostCondition -->
-      </class> <!-- LibertyMutal_Page_Object.LibertyMutual_PageObject -->
-    </test> <!-- Maven_Automation -->
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+    <reporter-output>
+    </reporter-output>
+    <suite started-at="2020-10-27T22:36:20 EDT" name="Default Suite" finished-at="2020-10-27T22:36:36 EDT"
+           duration-ms="16046">
+        <groups>
+        </groups>
+        <test started-at="2020-10-27T22:36:20 EDT" name="Maven_Automation" finished-at="2020-10-27T22:36:36 EDT"
+              duration-ms="16046">
+            <class name="Day_16_06072020.MetLife_AI_PageObject">
+                <test-method is-config="true"
+                             signature="defineDriver()[pri:0, instance:Day_16_06072020.MetLife_AI_PageObject@4148db48]"
+                             started-at="2020-10-27T22:36:13 EDT" name="defineDriver"
+                             finished-at="2020-10-27T22:36:20 EDT" duration-ms="7015" status="PASS">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- defineDriver -->
+                <test-method is-config="true"
+                             signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:Day_16_06072020.MetLife_AI_PageObject@4148db48]"
+                             started-at="2020-10-27T22:36:20 EDT" name="getMethodName"
+                             finished-at="2020-10-27T22:36:20 EDT" duration-ms="6" status="PASS">
+                    <params>
+                        <param index="0">
+                            <value>
+                                <![CDATA[public void Day_16_06072020.MetLife_AI_PageObject.MetLife_Page_Object() throws java.lang.InterruptedException]]>
+                            </value>
+                        </param>
+                    </params>
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- getMethodName -->
+                <test-method
+                        signature="MetLife_Page_Object()[pri:0, instance:Day_16_06072020.MetLife_AI_PageObject@4148db48]"
+                        started-at="2020-10-27T22:36:20 EDT" name="MetLife_Page_Object"
+                        finished-at="2020-10-27T22:36:36 EDT" duration-ms="15965" status="FAIL">
+                    <exception class="org.openqa.selenium.WebDriverException">
+                        <message>
+                            <![CDATA[chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OPTCNUC2', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\moeah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6a2ac2b0675a6a301270bf25739ab494]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OPTCNUC2', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\moeah\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6a2ac2b0675a6a301270bf25739ab494
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+at Reusable_Methods.Reusable_Library_Loggers.verifyTitle(Reusable_Library_Loggers.java:49)
+at Metlife_Page_Object.MetLife_HomePage.matchTitle(MetLife_HomePage.java:24)
+at Day_16_06072020.MetLife_AI_PageObject.MetLife_Page_Object(MetLife_AI_PageObject.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+                        </full-stacktrace>
+                    </exception> <!-- org.openqa.selenium.WebDriverException -->
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- MetLife_Page_Object -->
+                <test-method is-config="true"
+                             signature="endTest()[pri:0, instance:Day_16_06072020.MetLife_AI_PageObject@4148db48]"
+                             started-at="2020-10-27T22:36:36 EDT" name="endTest" finished-at="2020-10-27T22:36:36 EDT"
+                             duration-ms="4" status="PASS">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- endTest -->
+                <test-method is-config="true"
+                             signature="PostCondition()[pri:0, instance:Day_16_06072020.MetLife_AI_PageObject@4148db48]"
+                             started-at="2020-10-27T22:36:36 EDT" name="PostCondition"
+                             finished-at="2020-10-27T22:36:37 EDT" duration-ms="578" status="PASS">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- PostCondition -->
+            </class> <!-- Day_16_06072020.MetLife_AI_PageObject -->
+        </test> <!-- Maven_Automation -->
   </suite> <!-- Default Suite -->
 </testng-results>

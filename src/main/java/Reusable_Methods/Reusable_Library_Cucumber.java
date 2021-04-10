@@ -25,7 +25,7 @@ public class Reusable_Library_Cucumber {
         Runtime.getRuntime().exec("taskkill /F /IM chromedriver83.exe /T");
         Thread.sleep(2000);
         //set the chrome path
-        System.setProperty("webdriver.chrome.driver","src//main//resources//chromedriver83.exe");
+        System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver86.exe");
         //set some pre conditions using ChromeOptions
         ChromeOptions options = new ChromeOptions();
         //set the arguments you want for the driver

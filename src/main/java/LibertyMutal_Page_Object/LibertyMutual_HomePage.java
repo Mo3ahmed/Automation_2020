@@ -30,7 +30,10 @@ public class LibertyMutual_HomePage extends Abstract_Class {
 
     //Method to click on FeedBack
     public LibertyMutual_HomePage FeedBackButton() throws InterruptedException {
-        Reusable_Library_Loggers.clickElement(driver, "//*[text()='Give us your feedback']", "Feedback", logger);
+        Reusable_Library_Loggers.clickElement(driver, "//*[text()='Give us your feedback']", "feedback", logger);
+        //WebDriverWait wait = new WebDriverWait(driver,15);
+        //  wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//*[text()='Give us your feedback']")));
+        //  Reusable_Library_Loggers.clickElement(driver, "//*[text()='Give us your feedback']", "Feedback", logger);
         return new LibertyMutual_HomePage(driver);
     }//end of click method
 

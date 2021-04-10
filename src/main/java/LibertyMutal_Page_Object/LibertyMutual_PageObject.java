@@ -10,14 +10,17 @@ public class LibertyMutual_PageObject extends Abstract_Class {
         logger.log(LogStatus.INFO, "Navigating to LibertyMutual Home Page");
         driver.navigate().to("https://www.libertymutual.com");
         //wait time
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         //scroll to bottom
         LibertyMutual_Base_Class.libertyMutual_homePage().ScrollToBottom();
-        //click on feedback box
+
         Thread.sleep(1000);
+        //get the parent window handle
         String parentHandle = driver.getWindowHandle();
+        //click on feedback box
         LibertyMutual_Base_Class.libertyMutual_homePage().FeedBackButton();
         Thread.sleep(2000);
+        //switch focus to the new window
         for (String winHandle : driver.getWindowHandles()) {
             driver.switchTo().window(winHandle);
         }//end of for
@@ -31,7 +34,9 @@ public class LibertyMutual_PageObject extends Abstract_Class {
         //capture text
         LibertyMutual_Base_Class.libertyMutual_feedback_page().CaptureText();
         Thread.sleep(1000);
+        //close current window
         driver.close();
+        //switch back to the previous window
         driver.switchTo().window(parentHandle);
 
     }//end of test

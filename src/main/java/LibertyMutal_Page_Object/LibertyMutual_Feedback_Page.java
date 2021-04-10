@@ -3,6 +3,7 @@ package LibertyMutal_Page_Object;
 import Reusable_Methods.Abstract_Class;
 import Reusable_Methods.Reusable_Library_Loggers;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -40,6 +41,7 @@ public class LibertyMutual_Feedback_Page extends Abstract_Class {
     //capture text of the message
     public LibertyMutual_Feedback_Page CaptureText() throws InterruptedException {
         Reusable_Library_Loggers.captureText(driver, "//*[contains(@style,':#404040')]", "Capture text", logger);
+        logger.log(LogStatus.INFO, "the text is" + CaptureText());
         return new LibertyMutual_Feedback_Page(driver);
     }//end of capture text method
 

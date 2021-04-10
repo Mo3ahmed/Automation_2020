@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Maven_Automation(failed)">
     <classes>
-      <class name="LibertyMutal_Page_Object.LibertyMutual_PageObject">
-        <methods>
-          <include name="PostCondition"/>
-          <include name="endTest"/>
-          <include name="defineDriver"/>
-          <include name="LibertyMutual_PageObject"/>
-          <include name="getMethodName"/>
-        </methods>
-      </class> <!-- LibertyMutal_Page_Object.LibertyMutual_PageObject -->
+        <class name="Day_16_06072020.MetLife_AI_PageObject">
+            <methods>
+                <include name="PostCondition"/>
+                <include name="endTest"/>
+                <include name="defineDriver"/>
+                <include name="MetLife_Page_Object"/>
+                <include name="getMethodName"/>
+            </methods>
+        </class> <!-- Day_16_06072020.MetLife_AI_PageObject -->
     </classes>
   </test> <!-- Maven_Automation(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

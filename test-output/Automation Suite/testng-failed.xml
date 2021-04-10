@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Firefox Automation Suite(failed)">
-    <parameter name="Browser" value="Firefox"/>
-    <classes>
-      <class name="Day_13_05302020.Kayak_Action_Item_Abstract">
-        <methods>
-          <include name="defineDriver"/>
-          <include name="getMethodName"/>
-          <include name="PostCondition"/>
-          <include name="endTest"/>
-          <include name="KayakCarSelect"/>
-        </methods>
-      </class> <!-- Day_13_05302020.Kayak_Action_Item_Abstract -->
-    </classes>
-  </test> <!-- Firefox Automation Suite(failed) -->
-  <test thread-count="5" name="Chrome Automation Suite(failed)">
-    <parameter name="Browser" value="Chrome"/>
-    <classes>
-      <class name="Day_13_05302020.Kayak_Action_Item_Abstract">
-        <methods>
-          <include name="defineDriver"/>
-          <include name="getMethodName"/>
-          <include name="PostCondition"/>
-          <include name="endTest"/>
-          <include name="KayakCarSelect"/>
-        </methods>
-      </class> <!-- Day_13_05302020.Kayak_Action_Item_Abstract -->
-    </classes>
-  </test> <!-- Chrome Automation Suite(failed) -->
+  <test thread-count="5" name="Regression Test(failed)">
+      <classes>
+          <class name="Day_13_05302020.Excel_Google_Search_Abstract">
+              <methods>
+                  <include name="PostCondition"/>
+                  <include name="endTest"/>
+                  <include name="defineDriver"/>
+                  <include name="getMethodName"/>
+                  <include name="GoogleSearch"/>
+              </methods>
+          </class> <!-- Day_13_05302020.Excel_Google_Search_Abstract -->
+          <class name="Day_13_05302020.ActionItem_WeightWatch_Abstract">
+              <methods>
+                  <include name="PostCondition"/>
+                  <include name="endTest"/>
+                  <include name="defineDriver"/>
+                  <include name="WeightWatch"/>
+                  <include name="getMethodName"/>
+              </methods>
+          </class> <!-- Day_13_05302020.ActionItem_WeightWatch_Abstract -->
+          <class name="Day_13_05302020.Action_Item_MetLife_TestNG">
+              <methods>
+                  <include name="PostCondition"/>
+                  <include name="endTest"/>
+                  <include name="MetLife"/>
+                  <include name="defineDriver"/>
+                  <include name="getMethodName"/>
+              </methods>
+          </class> <!-- Day_13_05302020.Action_Item_MetLife_TestNG -->
+      </classes>
+  </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [Automation Suite] -->

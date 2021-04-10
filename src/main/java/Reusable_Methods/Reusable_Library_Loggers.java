@@ -6,15 +6,14 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Reporter;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class Reusable_Library_Loggers {
     static WebDriver driver;
@@ -23,29 +22,35 @@ public class Reusable_Library_Loggers {
     //method to re use chrome driver and chrome options
     public static WebDriver setDriver() throws InterruptedException, IOException {
         //kill all chrome driver instance
-        Thread.sleep(2000);
         Runtime.getRuntime().exec("taskkill /F /IM chromedriver83.exe /T");
         Thread.sleep(2000);
         //set the chrome path
-        System.setProperty("webdriver.chrome.driver","src//main//resources//chromedriver83.exe");
+        System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver86.exe");
         //set some pre conditions using ChromeOptions
         ChromeOptions options = new ChromeOptions();
         //set the arguments you want for the driver
-        options.addArguments("start-maximized","incognito");
+        options.addArguments("start-maximized", "incognito");
         //now simply define your chrome driver
         WebDriver driver = new ChromeDriver(options);
         return driver;
     }//end of
 
+    public static WebDriver SetFirefox() {
+        System.setProperty("webdriver.gecko.driver", "src//main//resources//geckodriver.exe");
+        driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        return driver;
+    }//end of firefox
+
     //method to compare expected with actual title
-    public static void verifyTitle(WebDriver driver,String expectedTitle, ExtentTest logger) throws InterruptedException {
+    public static void verifyTitle(WebDriver driver, String expectedTitle, ExtentTest logger) throws InterruptedException {
         String actualTitle = driver.getTitle();
-        if (actualTitle.equals(expectedTitle)){
+        if (actualTitle.equals(expectedTitle)) {
             System.out.println("Expected title matches with actual " + actualTitle);
-            logger.log(LogStatus.PASS,"Expected title matches with actual" + actualTitle);
-        }else{
-            System.out.println("Expected title does not match. actual title is " +actualTitle);
-            logger.log(LogStatus.FAIL," Expected title does not match. actual title is: " +actualTitle);
+            logger.log(LogStatus.PASS, "Expected title matches with actual" + actualTitle);
+        } else {
+            System.out.println("Expected title does not match. actual title is " + actualTitle);
+            logger.log(LogStatus.FAIL, " Expected title does not match. actual title is: " + actualTitle);
         }//end if else
     }//end of verify title
 

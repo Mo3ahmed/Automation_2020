@@ -1,6 +1,5 @@
 package Reusable_Methods;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,7 +9,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
-import java.io.File;
 import java.io.IOException;
 
 public class Reusable_Library {
@@ -24,7 +22,7 @@ public class Reusable_Library {
         Runtime.getRuntime().exec("taskkill /F /IM chromedriver83.exe /T");
         Thread.sleep(2000);
         //set the chrome path
-        System.setProperty("webdriver.chrome.driver","src//main//resources//chromedriver83.exe");
+        System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver86.exe");
         //set some pre conditions using ChromeOptions
         ChromeOptions options = new ChromeOptions();
         //set the arguments you want for the driver

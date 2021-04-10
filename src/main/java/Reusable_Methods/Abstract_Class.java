@@ -23,9 +23,9 @@ public class Abstract_Class {
     //define before suite to set a static driver
     @BeforeSuite
     public void defineDriver() throws IOException, InterruptedException {
-    driver = Reusable_Library_Loggers.setDriver()  ;
+    driver = Reusable_Library_Loggers.setDriver();
     //define the report path
-        reports = new ExtentReports("src//main//java//HTML_Reports//TestReport.html",true);
+        reports = new ExtentReports("src//main//java//HTML_Reports//iFrame.html", true);
     }//end of before suite
 
     //before method will be used to capture a unique @test name that you gave on your test classes
